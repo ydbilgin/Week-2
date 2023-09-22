@@ -45,7 +45,6 @@ public class Student {
 
     void calcAverage() {
         this.average = (((this.c1.note * 0.8) + ((this.c1.noteSozlu) * 0.20)) + ((this.c2.note * 0.8) + (this.c2.noteSozlu * 0.20)) + ((this.c3.note * 0.8) + (this.c3.noteSozlu * 0.20))) / 3.0;
-        System.out.println(average);
     }
 
     boolean isCheckPass() {
