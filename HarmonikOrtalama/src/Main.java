@@ -16,8 +16,8 @@ public class Main {
             list.add(a);
         }
         //arrayin tüm indexlerinin -1. kuvvetini alarak toplayıp bi toplam elde ettim.
-        for (int i = 0 ; i < n ; i++){
-            sumH += (1.0/list.get(i));
+        for (int i : list){
+            sumH += (1.0/i);
         }
         //harmonik ortalama hesaplarken toplam sayıyı tüm değerlerin -1. kuvvet toplamına bölerek sonucu buldum
         avarageOfHarmonic = (n/sumH);
