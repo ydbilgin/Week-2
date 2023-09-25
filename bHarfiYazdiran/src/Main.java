@@ -16,6 +16,7 @@ public class Main {
 
             }
         }
+        letter[3][3]= " ";
         for ( String[] row : letter){
             for (String col : row){
                 System.out.print(col);
